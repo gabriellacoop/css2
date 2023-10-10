@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('gay.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+.lyrics-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.lyrics-container p:hover {
+    color: #ff9900; /* Cor que desejar ao passar o mouse sobre o texto */
+}
+
+/* style.css */
+
+/* Basic Button Styles */
+.button, .spotify-button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 15px 32px; /* Padding inside the button */
+    text-align: center; /* Centered text */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none; /* No underline on the text */
+    display: inline-block; /* Make it an inline element */
+    font-size: 18px; /* Font size */
+    margin: 10px 0; /* Margin around the button */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect */
+.button:hover, .spotify-button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Spotify Button Styles */
+.spotify-button {
+    background-color: #1DB954; /* Spotify green background color */
+}
+
+/* Modern Shadow Effect */
+.button, .spotify-button {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+}
